@@ -1,0 +1,20 @@
+\newpage 
+\thispagestyle{empty}
+
+\titlecontents{section}
+  [0cm]
+  {}
+  {\text{ГЛАВА } \thecontentslabel. }
+  {\contentslabel[\thecontentslabel]{0em}}
+  {{\titlerule*[1pc]{.} \contentspage}}
+
+\titlecontents{subsection}
+  [0cm]
+  {}
+  {\thecontentslabel. }
+  {\contentslabel[\thecontentslabel]{0em}}
+  {{\titlerule*[1pc]{.} \contentspage}}
+
+\renewcommand{\contentsname}{\centering \normalfont СОДЕРЖАНИЕ}
+\tableofcontents
+\newpage 
